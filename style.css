@@ -4,7 +4,7 @@ body {
 
 .post {
     width: 600px;
-    height: 750px;
+    height: 800px;
     background-color: white;
     position: absolute; 
     left: 0%;
@@ -14,23 +14,28 @@ body {
     bottom: 0%;
 }
 
-div.post .post-header div:first-child {
-    display: inline-block;
-    width: 10%;
-    background-color: green;
-} 
+.post-header {
+    display: flex;
+}
 
-div.post .post-header div:.titulo {
-    display: inline-block;
-    width: 60%;
-    background-color: yellow;
-} 
+.fa-html5 {
+    flex: 1 1 33%;
+    margin: 30px;
+    font-size: 40px;
+}
 
-div.post .post-header div:last-child {
-    display: inline-block;
-    width: 20%;
-    background-color: blue;
-} 
+.titulo {
+    flex: 1 1 33%;
+    padding-top: 13px;
+    font-size: 110%;
+}
+
+
+.fa-ellipsis-vertical {
+    flex: 1 1 33%;
+    margin: 30px;
+    font-size: 200%;
+}
 
 
 .foto {
@@ -45,4 +50,30 @@ div.post .post-header div:last-child {
 p {
     font-family: 'Handlee', cursive;
     font-family: 'Roboto', sans-serif;
+}
+
+.interacciones {
+    margin: 20px;
+    font-size: 175%;
+}
+
+#save {
+    margin-left: 75%;
+}
+
+.fa-heart {
+    margin-right: 10px;
+}
+
+
+.fa-paper-plane {
+    margin-left: 10px;
+}
+
+.likes {
+    margin: 20px;
+}
+
+.descripcion {
+    margin: 20px;
 }
