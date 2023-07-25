@@ -47,9 +47,10 @@ body {
     display: inline-block
 }
 
-p {
+header {
     font-family: 'Handlee', cursive;
     font-family: 'Roboto', sans-serif;
+    padding-top: 16px;
 }
 
 .interacciones {
